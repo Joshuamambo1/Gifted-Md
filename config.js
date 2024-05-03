@@ -18,14 +18,14 @@
 //                                                                                            //
 //════════════════════════════════════════════════════════════════════════════════════════════//
 *                                                                 
-  * @project_name : Gifted-Md
+  * @project_name : Midking-Md
    * @author : Gifted Tech Info
    * @youtube : https://www.youtube.com/@giftedtechnexus
-   * @description : Gifted-Md ,A Multi-functional whatsapp user bot.
+   * @description : Joshuamambo-Md ,A Multi-functional whatsapp user bot.
    * @version 2.5.0
 *
 * 
-   * Created By Gifted Tech Info.
+   * Created By Midking Tech Info.
    * © 2024 Gifted-Md.
 
 
@@ -72,7 +72,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 global.devs = "254728782591,254762016957,254110853827,254728746852,255655147353" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "254728782591,254762016957,254110853827,254728746852,255655147353";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254728782591,254762016957,254110853827,254728746852,255655147353";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "263716985350 ,254728782591,254762016957,254110853827,254728746852,255655147353";
 
 
 
@@ -98,15 +98,15 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "254728782591,25476201
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
 global.read_status = process.env.AUTO_READ_STATUS || "true"
-global.save_status = process.env.AUTO_SAVE_STATUS || "false"
+global.save_status = process.env.AUTO_SAVE_STATUS || "true"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "254xxxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "254728782591,254762016957,254110853827,254728746852,255655147353";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "263716985350 ,254728782591,254762016957,254110853827,254728746852,255655147353";
 
 global.api_smd = "https://api-smd.onrender.com" 
 global.scan = "https://session.giftedtechnexus.co.ke";
 
 
-global.SESSION_ID = process.env.SESSION_ID ||  "" ; // PUT your SESSION_ID 
+global.SESSION_ID = process.env.SESSION_ID ||  "Gifted;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiOE5GWEF6MFZCdkdyV2VncW5iMnpRbkg4SzB6NEtvYnppbFliODJjbTJuTT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiaEpZL1k0SGxSWDNRVjJjZ295bDB4S3g2d1VOTStJbzh0SmZUVXRrZGVsWT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJRTnNEQ0Z5RWFLU1N3NVNYTjc1Y2xmMExYOHJvV21wRXhqSkxGRnJESVVRPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJRendVWVkzZXBMRWgxOTFlYy85RHlhQnFnd1VoVlRXc2NpUng2U3U2NzM4PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IndNdzhVMWdCTVdSdDZSNU9wcjhQTHJmdG12K3B4UTROZXhZenJVL3RYbHc9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im9UaHpUOGZFUnIzSXV0S1RlR0Q4VmxSaVdCcE5JTUtFb1lKNUxkK2tJZzg9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWUJyNmpmRkdlTFdmbzVFa1R0UEN1MXlCZFdSOUJ4RTFoNjE3cmUrMnJtcz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiV2NMdG1XdkZQaEdOR1BNbHlaczQxcEFOTHpjb1VEa3VPQzZDcHBlUzNFZz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlppVUszOTdMWTduQlFyNU03TVo1S1BoRDNqc0F0aE1mS0QxenRqTjFnY3FiYnNGUUNId1UxRklzVHVhTVAvdzVJQUNYRXFvc2VOVGovRlczZDF1T0FBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6NjksImFkdlNlY3JldEtleSI6IkRsMGhhSWVTQTJjcTJydGJzRkNoVk5OOTNncndEaVNtcXIvTnZwTFRVYW89IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IlFkeVM5UVJSUTlDaFd5MWhaRnlFckEiLCJwaG9uZUlkIjoiN2Y2OTk0ZTEtZmQzMy00ZTlkLWI4ZTAtNTM0NGExZTljMTRlIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImluRFFJRENSN2M3ajZLTkc0d1dzeDdCY3JPdz0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJnbTdHV3A3ZGFpVlFFdERReS95dkxERy8xdlU9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiRTVIVEtUVFQiLCJtZSI6eyJpZCI6IjI2MzcxNjk4NTM1MDozQHMud2hhdHNhcHAubmV0IiwibmFtZSI6IvCfq4Lwn4+L77iPSm9zaGtpbmcgbWFtYm/wn5mM8J+ZjCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDSituM3F3RkVNTEQwckVHR0FFPSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJoNVdObjdVTStpZ2N1UkYwK1FGRVB4TDVVc1BvcU85aTFtMHRKTE8wUEE4PSIsImFjY291bnRTaWduYXR1cmUiOiJMVHBtTXYrU2F4U2ZZVHBGQnFkT1ZjZ0V1eGwwVEMrVzdRd1pNS1BpK3YzbVNCU1ZtM3JwMHhITHJuZWt1UGFaMnFsQTZveFV0d3VkN1Y0cmN1bWpDdz09IiwiZGV2aWNlU2lnbmF0dXJlIjoieEJENDJVN2lzTkdiVlBhK01ySDYyYW5mT01jV3dyQkNQeVdZM2NoLytyRWhvMjZQK2owaDUxSUZJbHVSdTVrK0N6QmZaM25GeER3SEJqSlNtMnhkQXc9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyNjM3MTY5ODUzNTA6M0BzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJZZVZqWisxRFBvb0hMa1JkUGtCUkQ4UytWTEQ2S2p2WXRadExTU3p0RHdQIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzE0NzI1MzI4LCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQU15RSJ9" ; // PUT your SESSION_ID 
 
 
 module.exports = {
